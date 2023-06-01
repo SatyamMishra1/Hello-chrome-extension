@@ -1,0 +1,22 @@
+{
+  "manifest_version" :3,
+  "short_name": "Hello Extension",
+  "name": "Chrome Hello Extension",
+  "author":"Satyam Mishra",
+  "version":"1.0.1",
+  "description":"Displaying Hello on browser assignment",
+  "icons": 
+    {
+      "16": "favicon.ico",
+      "48": "logo192.png",
+      "128": "logo512.png"
+     
+    },
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "chrome_url_overrides":{
+    "newtab":"index.html"
+  }
+}
